@@ -1,0 +1,8 @@
+#!/usr/bin/env ruby
+require 'nothing_magical'
+
+if ARGV.empty?
+  abort "usage: nothing_magical directory"
+end
+
+NothingMagical.process(ARGV)
