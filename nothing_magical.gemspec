@@ -16,6 +16,9 @@ Gem::Specification.new do |spec|
   spec.files         = `git ls-files`.split($/)
   spec.executables   =["nothing_magical"]
   spec.require_paths = ["lib"]
+  spec.has_rdoc      = false
 
   spec.default_executable = %q{nothing_magical}
+
+  spec.add_development_dependency 'rake'
 end
